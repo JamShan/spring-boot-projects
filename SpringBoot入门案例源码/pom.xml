@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cn.lanqiao</groupId>
+    <artifactId>springboot3-all-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>springboot3-all-demo</name>
+    <description>springboot3-all-demo</description>
+
+
+    <!-- 关键点 -->
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spring-boot-ajax</module>
+        <module>spring-boot-file-upload</module>
+        <module>spring-boot-helloworld</module>
+        <module>spring-boot-jdbc</module>
+        <module>spring-boot-mybatis</module>
+        <module>spring-boot-RESTful-api</module>
+        <module>spring-boot-static-resources</module>
+    </modules>
+
+
+</project>
